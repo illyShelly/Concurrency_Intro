@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3745050829D4CAD900A4DFD2 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745050729D4CAD900A4DFD2 /* ImageLoadingViewModel.swift */; };
 		37AF04B529D1E0B7002E7961 /* ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF04B429D1E0B7002E7961 /* ConcurrencyApp.swift */; };
 		37AF04B729D1E0B7002E7961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF04B629D1E0B7002E7961 /* ContentView.swift */; };
 		37AF04B929D1E0B8002E7961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AF04B829D1E0B8002E7961 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3745050729D4CAD900A4DFD2 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
 		37AF04B129D1E0B7002E7961 /* Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AF04B429D1E0B7002E7961 /* ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyApp.swift; sourceTree = "<group>"; };
 		37AF04B629D1E0B7002E7961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3745050529D4CAA500A4DFD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3745050729D4CAD900A4DFD2 /* ImageLoadingViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3745050629D4CAB300A4DFD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37AF04B629D1E0B7002E7961 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		37AF04A829D1E0B7002E7961 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +70,8 @@
 			isa = PBXGroup;
 			children = (
 				37AF04B429D1E0B7002E7961 /* ConcurrencyApp.swift */,
-				37AF04B629D1E0B7002E7961 /* ContentView.swift */,
+				3745050529D4CAA500A4DFD2 /* ViewModel */,
+				3745050629D4CAB300A4DFD2 /* Views */,
 				37AF04B829D1E0B8002E7961 /* Assets.xcassets */,
 				37AF04BA29D1E0B8002E7961 /* Preview Content */,
 			);
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3745050829D4CAD900A4DFD2 /* ImageLoadingViewModel.swift in Sources */,
 				37AF04B729D1E0B7002E7961 /* ContentView.swift in Sources */,
 				37AF04B529D1E0B7002E7961 /* ConcurrencyApp.swift in Sources */,
 			);
