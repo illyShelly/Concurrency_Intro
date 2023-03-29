@@ -20,7 +20,9 @@ struct HandlerImageView: View {
                 }
             }
             .navigationTitle("Handler Image")
-        }
+        }.padding(0)
+            .ignoresSafeArea(.all)
+
         .onAppear {
             // using completion handler solutin
             loaderVM.fetchImage()

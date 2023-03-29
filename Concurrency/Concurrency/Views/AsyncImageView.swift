@@ -16,7 +16,6 @@ struct AsyncImageView: View {
                 if let asyncImage = asyncVM.image {
                     Image(uiImage: asyncImage)
                         .resizable()
-//                        .scaledToFit()
                         .aspectRatio(contentMode: .fit)
 
                 }

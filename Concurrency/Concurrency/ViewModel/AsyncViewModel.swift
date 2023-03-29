@@ -14,8 +14,11 @@ class AsyncViewModel: ObservableObject {
     let loader = ImageLoadingViewModel()
     
     func loadImage() async {
-        if let img = try? await loader.fetchWithAsync()  { // need keyword above to see method
+        let img = try? await loader.fetchWithAsync()  // need keyword above to see method
+        await MainActor.run {
             self.image = img
         }
     }
 }
+
+// error -> needs jump to main thread - similar Main Actor - again to 'await'

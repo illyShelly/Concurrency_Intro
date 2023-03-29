@@ -14,12 +14,13 @@ struct ContentView: View {
                 .tabItem {
                     Label("Old", systemImage: "tray.and.arrow.down.fill")
                 }
+                .padding(0)
             AsyncImageView()
                 .tabItem {
                     Label("New", systemImage: "tray.and.arrow.up.fill")
                 }
+                .padding(0)
         }
-
     }
 }
 
