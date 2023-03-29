@@ -2,28 +2,24 @@
 //  ContentView.swift
 //  Concurrency
 //
-//  Created by Ilona Sellenberkova on 27/03/2023.
+//  Created by Ilona Sellenberkova on 29/03/2023.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var loaderVM = ImageLoadingViewModel()
-    
     var body: some View {
-        NavigationView {
-            VStack {
-                if let image = loaderVM.image {
-                    Image(uiImage: image)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+        TabView {
+            HandlerImageView()
+                .tabItem {
+                    Label("Old", systemImage: "tray.and.arrow.down.fill")
                 }
-            }
-            .navigationTitle("Random Image")
+            AsyncImageView()
+                .tabItem {
+                    Label("New", systemImage: "tray.and.arrow.up.fill")
+                }
         }
-        .onAppear {
-            loaderVM.fetchImage()
-        }
+
     }
 }
 

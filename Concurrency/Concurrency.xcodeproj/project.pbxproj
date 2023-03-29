@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		3745050829D4CAD900A4DFD2 /* ImageLoadingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745050729D4CAD900A4DFD2 /* ImageLoadingViewModel.swift */; };
+		3745050A29D4DC9A00A4DFD2 /* AsyncViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745050929D4DC9A00A4DFD2 /* AsyncViewModel.swift */; };
+		3745050C29D4E0A400A4DFD2 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745050B29D4E0A400A4DFD2 /* AsyncImageView.swift */; };
+		3745051029D4E55700A4DFD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3745050F29D4E55700A4DFD2 /* ContentView.swift */; };
 		37AF04B529D1E0B7002E7961 /* ConcurrencyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF04B429D1E0B7002E7961 /* ConcurrencyApp.swift */; };
-		37AF04B729D1E0B7002E7961 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF04B629D1E0B7002E7961 /* ContentView.swift */; };
+		37AF04B729D1E0B7002E7961 /* HandlerImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AF04B629D1E0B7002E7961 /* HandlerImageView.swift */; };
 		37AF04B929D1E0B8002E7961 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AF04B829D1E0B8002E7961 /* Assets.xcassets */; };
 		37AF04BC29D1E0B8002E7961 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37AF04BB29D1E0B8002E7961 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3745050729D4CAD900A4DFD2 /* ImageLoadingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoadingViewModel.swift; sourceTree = "<group>"; };
+		3745050929D4DC9A00A4DFD2 /* AsyncViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewModel.swift; sourceTree = "<group>"; };
+		3745050B29D4E0A400A4DFD2 /* AsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		3745050F29D4E55700A4DFD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37AF04B129D1E0B7002E7961 /* Concurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37AF04B429D1E0B7002E7961 /* ConcurrencyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyApp.swift; sourceTree = "<group>"; };
-		37AF04B629D1E0B7002E7961 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		37AF04B629D1E0B7002E7961 /* HandlerImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerImageView.swift; sourceTree = "<group>"; };
 		37AF04B829D1E0B8002E7961 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37AF04BB29D1E0B8002E7961 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +44,7 @@
 			isa = PBXGroup;
 			children = (
 				3745050729D4CAD900A4DFD2 /* ImageLoadingViewModel.swift */,
+				3745050929D4DC9A00A4DFD2 /* AsyncViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -45,7 +52,9 @@
 		3745050629D4CAB300A4DFD2 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				37AF04B629D1E0B7002E7961 /* ContentView.swift */,
+				3745050F29D4E55700A4DFD2 /* ContentView.swift */,
+				37AF04B629D1E0B7002E7961 /* HandlerImageView.swift */,
+				3745050B29D4E0A400A4DFD2 /* AsyncImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -157,7 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3745050829D4CAD900A4DFD2 /* ImageLoadingViewModel.swift in Sources */,
-				37AF04B729D1E0B7002E7961 /* ContentView.swift in Sources */,
+				3745050A29D4DC9A00A4DFD2 /* AsyncViewModel.swift in Sources */,
+				3745051029D4E55700A4DFD2 /* ContentView.swift in Sources */,
+				37AF04B729D1E0B7002E7961 /* HandlerImageView.swift in Sources */,
+				3745050C29D4E0A400A4DFD2 /* AsyncImageView.swift in Sources */,
 				37AF04B529D1E0B7002E7961 /* ConcurrencyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

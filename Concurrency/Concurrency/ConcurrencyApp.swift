@@ -11,7 +11,8 @@ import SwiftUI
 struct ConcurrencyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // HandleImageView()
+            AsyncImageView()
         }
     }
 }
