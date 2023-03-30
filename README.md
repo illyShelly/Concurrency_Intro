@@ -15,7 +15,10 @@ I used this website: https://picsum.photos that provides random images as a URL 
 
 Implementation API and fetching more images in UI when scroll down.
 
-### UI
+## UI View
+
+Represents two tabs for each view to display its content.
+
 
 <img src="https://raw.githubusercontent.com/illyShelly/Concurrency_Intro/main/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-03-30%20at%2013.38.39.png" width = "30%" height="30%"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 <img src="https://raw.githubusercontent.com/illyShelly/Concurrency_Intro/main/Simulator%20Screen%20Shot%20-%20iPhone%2014%20Pro%20-%202023-03-30%20at%2014.26.55.png" width = "30%" height="30%"> <br> <br>
