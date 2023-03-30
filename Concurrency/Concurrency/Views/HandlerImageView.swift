@@ -17,6 +17,8 @@ struct HandlerImageView: View {
                     Image(uiImage: image)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
+                } else {
+                    ProgressView()
                 }
             }
             .navigationTitle("Handler Image")

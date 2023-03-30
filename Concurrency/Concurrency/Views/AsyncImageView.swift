@@ -17,7 +17,8 @@ struct AsyncImageView: View {
                     Image(uiImage: asyncImage)
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-
+                } else {
+                    ProgressView() // meanwhile loading
                 }
             }
             .navigationTitle("Async Image")
